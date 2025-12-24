@@ -1,0 +1,1 @@
+Simple price toggler accessible for everyone and  fully responsive, using the basic stack. The color palette slightly differs from the original design — although the provided colors were used, the final result does not perfectly match the reference, most likely due to inconsistencies in the original assets.
