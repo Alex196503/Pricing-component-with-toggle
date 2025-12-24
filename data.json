@@ -1,0 +1,14 @@
+
+    {
+      "annualy":[
+        {"name":"basic", "price":199.99},
+        {"name":"professional", "price":249.99},
+        {"name":"master", "price":399.99}
+      ],
+      "monthly":
+      [
+        {"name":"basic", "price":19.99},
+        {"name":"professional", "price":24.99},
+        {"name":"master", "price":39.99}
+      ]
+    }

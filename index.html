@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Component</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="lead">Our Pricing</h1>
+        <div class="toggle-container">
+            <label for="checkbox">Annualy</label>
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <span class="toggle-circle"></span>
+            <label for="checkbox">Monthly</label>
+        </div>
+    </header>
+    <main class="container">
+        <div class="container-grid">
+            <article class="article" data-type="basic">
+                    <h2 class="text-primary">Basic</h2>
+                    <h3 class="text-heading">$19.99</h3>
+                    <hr>
+                    <ul class="list">
+                        <li><p class="text-primary">500 GB Storage</p></li>
+                        <li><p class="text-primary">2 Users Allowed</p></li>
+                        <li><p class="text-primary">Send up to 3 GB</p></li>
+                    </ul>
+                    <button type="button" class="btn-primary" tabindex="0">Learn More</button>
+                </article>
+                <article class="article-master" data-type="professional">
+                    <h2 class="text-white">Professional</h2>
+                    <h3 class="text-headingWhite">$24.99</h3>
+                    <hr>
+                    <ul class="list">
+                        <li><p class="text-white">1 TB Storage</p></li>
+                        <li><p class="text-white">5 Users Allowed</p></li>
+                        <li><p class="text-white">Send up to 10 GB</p></li>
+                    </ul>
+                    <button type="button" class="btn-primary">Learn More</button>
+                </article>
+                <article class="article" data-type="master">
+                    <h2 class="text-primary">Master</h2>
+                    <h3 class="text-heading">$39.99</h3>
+                    <hr>
+                    <ul class="list">
+                        <li><p class="text-primary">2 TB Storage</p></li>
+                        <li><p class="text-primary">10 Users Allowed</p></li>
+                        <li><p class="text-primary">Send up to 20 GB </p></li>
+                    </ul>
+                    <button type="button" class="btn-primary">Learn More</button>
+                </article>
+        </div>
+    </main>
+</body>
+</html>
