@@ -23,7 +23,7 @@ body{
     background-image: url('images/bg-top.svg'), url('images/bg-bottom.svg');
     background-repeat: no-repeat;
     background-position: right top, left bottom;
-    background-size: contain contain;
+    background-size: contain, 350px 300px;
 }
 .header{
     width: 100%;
